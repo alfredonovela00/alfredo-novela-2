@@ -1,0 +1,182 @@
+/* estilos para personalizar a aparência */
+
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.7) url('../images/Home-bg.jpg');
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  min-height: 100vh;
+}
+
+
+
+
+.navbar-brand {
+  font-family: "Permanent Marker", cursive;
+  text-transform: uppercase;
+}
+
+.span-2 {
+  color: #78B9DB;
+}
+
+.desc {
+  font-family: "Permanent Marker", cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.desc h2 {
+
+  font-family: "Permanent Marker", cursive;
+  text-transform: uppercase;
+  color: #78B9DB;
+  font-weight: bold;
+}
+
+
+.image-about {
+  border-radius: 15px;
+  background-image: url('../images/image-about.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  font-family: "Permanent Marker", cursive;
+}
+
+p {
+  text-align: justify;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+.pt-custom-large {
+  padding-top: 25%;
+  /* Ou um valor maior, conforme necessário */
+}
+
+.fs-custom-large {
+  font-size: 5rem;
+  /* Ou um valor maior, conforme necessário */
+}
+
+.facebook-icon {
+  color: #3b5998;
+  /* Cor do Facebook */
+}
+
+.twitter-icon {
+  color: #1DA1F2;
+  /* Cor do Twitter */
+}
+
+.instagram-icon {
+  color: #C13584;
+  /* Cor do Instagram */
+}
+
+.linkedin-icon {
+  color: #0077b5;
+  /* Cor do LinkedIn */
+}
+
+.whatsapp-icon {
+  color: #25D366;
+  /* Cor do WhatsApp */
+}
+
+.github-icon {
+  color: #333;
+  /* Cor do GitHub */
+}
+
+
+
+
+/* Aumentando os ícones */
+.social-media i {
+  font-size: 2.5rem;
+  margin-right: 10px;
+}
+
+/* Definindo cores personalizadas para os botões */
+.custom-btn-contact {
+  background-color: #20c997;
+  /* Verde suave */
+  border-color: #20c997;
+}
+
+.custom-btn-services {
+  background-color: #6f42c1;
+  /* Roxo elegante */
+  border-color: #6f42c1;
+}
+
+.card-custom {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  /* Remove a borda padrão */
+  border-radius: 15px;
+  /* Bordas arredondadas */
+  background-color: #f8f9fa;
+  /* Cor de fundo do card */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  /* Sombra suave */
+}
+
+.card-custom:hover {
+  transform: translateY(-5px);
+  /* Levanta o card ao passar o mouse */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  /* Sombra mais forte ao passar o mouse */
+}
+
+.service-icon {
+  font-size: 3rem;
+  /* Tamanho do ícone */
+  color: #007bff;
+  /* Cor do ícone */
+  margin-bottom: 15px;
+  /* Espaço abaixo do ícone */
+}
+
+.card-title {
+  margin-bottom: 10px;
+  /* Espaço abaixo do título */
+  font-weight: bold;
+  /* Negrito para o título */
+}
+
+.card-text {
+  font-size: 0.9rem;
+  /* Tamanho da fonte do texto */
+  color: #6c757d;
+  /* Cor do texto */
+}
